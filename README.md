@@ -1,36 +1,22 @@
-# Prestige Haven — site vitrine trilingue
+# Prestige Haven — site premium
 
-Site statique de départ pour Prestige Haven. Il comprend les versions française, anglaise et arabe (RTL), les sections Accueil, Services, À propos et Contact, ainsi qu'un formulaire qui prépare un e-mail.
+## Contenu
+- index.html : site vitrine trilingue
+- styles.css : design responsive noir et or
+- script.js : traductions et widget WhatsApp
+- logo-prestige-haven.jpg : logo officiel fourni
+- accent-dore.png : deuxième visuel fourni
+- favicon.svg : icône de navigateur
 
-## Fichiers
-- `index.html` : structure du site
-- `styles.css` : design responsive
-- `script.js` : traductions et interactions
+## Mise à jour sur GitHub et Cloudflare Workers
+1. Décompresser l’archive.
+2. Ouvrir le dépôt GitHub lié au Worker Cloudflare.
+3. Remplacer les fichiers à la racine du dépôt (ne pas téléverser le dossier parent).
+4. Vérifier le commit et attendre le déploiement Cloudflare (Success).
+5. Tester www.prestigehaven.agency avec Ctrl+F5.
 
-## À personnaliser avant publication
-1. L’adresse de contact configurée est `prestigehaven1@gmail.com` ; vérifiez qu’elle est active.
-2. Le téléphone et WhatsApp sont configurés sur `+212 6 70 61 68 67`.
-3. Les zones d’activité affichées sont Rabat, Salé, Tanger et Marrakech.
-4. Vérifier que les services décrits correspondent exactement à l'activité de l'entreprise.
-5. Remplacer les photos de démonstration par des photos que vous avez le droit d'utiliser.
-6. Faire relire les traductions et textes commerciaux avant publication.
-7. Ajouter une politique de confidentialité adaptée si vous collectez des données personnelles. Le formulaire actuel ouvre l'application e-mail du visiteur et ne stocke pas de données sur le site.
+IMPORTANT : les images de fond et de services sont des photos d’illustration chargées depuis images.unsplash.com. Elles ne sont pas incluses dans l’archive et nécessitent une connexion Internet. Vérifiez les droits d’utilisation applicables et remplacez-les idéalement par vos photos professionnelles, notamment pour les véhicules, soirées et biens. Les images des villes sont illustratives et ne représentent pas nécessairement la ville nommée.
 
-## Tester en local
-Ouvrir `index.html` dans un navigateur récent.
-
-## Publication gratuite (méthode GitHub + Cloudflare Pages)
-1. Créer un compte GitHub et un dépôt public ou privé nommé `prestige-haven-site`.
-2. Importer les quatre fichiers de ce dossier à la racine du dépôt.
-3. Dans Cloudflare, ouvrir Workers & Pages et créer une application Pages reliée au dépôt GitHub.
-4. Pour un site HTML simple, utiliser le preset `None` et laisser le champ de commande de build vide ; le dossier de sortie doit être `/` ou la racine du projet selon les options présentées.
-5. Déployer et tester l'adresse `*.pages.dev` attribuée.
-6. Dans le projet Pages, aller dans Custom domains et ajouter `prestigehaven.agency`, puis suivre les instructions affichées par Cloudflare.
-7. Si Cloudflare demande de transférer les serveurs DNS, copier exactement les deux serveurs de noms fournis dans Namecheap > Domain List > Manage > Nameservers > Custom DNS.
-8. Avant de changer les serveurs DNS, vérifier si des enregistrements e-mail existent déjà. Les recréer dans Cloudflare si nécessaire. Ne jamais inventer les valeurs DNS.
-9. Ajouter ensuite `www.prestigehaven.agency` depuis Custom domains si souhaité, et vérifier HTTPS.
-
-La prise en charge d'un domaine racine par Cloudflare Pages nécessite que le domaine soit ajouté comme zone Cloudflare et que ses serveurs de noms pointent vers Cloudflare. Voir la documentation officielle :
-https://developers.cloudflare.com/pages/configuration/custom-domains/
-
-Le domaine reste enregistré chez Namecheap. Le renouvellement du domaine n'est pas inclus dans l'hébergement gratuit.
+WhatsApp : +212670616867. E-mail : prestigehaven1@gmail.com.
+Le bouton WhatsApp ouvre une conversation WhatsApp ; ce n’est pas un chat avec opérateur intégré ni une automatisation.
+Aucune promesse de disponibilité de transport ou d’organisation d’événements n’est implicite ; vérifiez les autorisations et assurances nécessaires à ces prestations.
