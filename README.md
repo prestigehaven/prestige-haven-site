@@ -8,12 +8,13 @@ Site statique de départ pour Prestige Haven. Il comprend les versions français
 - `script.js` : traductions et interactions
 
 ## À personnaliser avant publication
-1. Vérifier que `contact@prestigehaven.agency` est bien une adresse e-mail active. Le site ne crée pas cette boîte mail.
-2. Ajouter le numéro WhatsApp et la zone d'activité réels.
-3. Vérifier que les services décrits correspondent exactement à l'activité de l'entreprise.
-4. Remplacer les photos de démonstration par des photos que vous avez le droit d'utiliser.
-5. Faire relire les traductions et textes commerciaux avant publication.
-6. Ajouter une politique de confidentialité adaptée si vous collectez des données personnelles. Le formulaire actuel ouvre l'application e-mail du visiteur et ne stocke pas de données sur le site.
+1. L’adresse de contact configurée est `prestigehaven1@gmail.com` ; vérifiez qu’elle est active.
+2. Le téléphone et WhatsApp sont configurés sur `+212 6 70 61 68 67`.
+3. Les zones d’activité affichées sont Rabat, Salé, Tanger et Marrakech.
+4. Vérifier que les services décrits correspondent exactement à l'activité de l'entreprise.
+5. Remplacer les photos de démonstration par des photos que vous avez le droit d'utiliser.
+6. Faire relire les traductions et textes commerciaux avant publication.
+7. Ajouter une politique de confidentialité adaptée si vous collectez des données personnelles. Le formulaire actuel ouvre l'application e-mail du visiteur et ne stocke pas de données sur le site.
 
 ## Tester en local
 Ouvrir `index.html` dans un navigateur récent.
