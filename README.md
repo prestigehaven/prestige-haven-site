@@ -1,22 +1,12 @@
-# Prestige Haven — site premium
+# Prestige Haven — Site prêt pour GitHub / Cloudflare Workers
 
-## Contenu
-- index.html : site vitrine trilingue
-- styles.css : design responsive noir et or
-- script.js : traductions et widget WhatsApp
-- logo-prestige-haven.jpg : logo officiel fourni
-- accent-dore.png : deuxième visuel fourni
-- favicon.svg : icône de navigateur
+Contenu : `index.html`, `images/` (4 visuels illustratifs de destinations), `sitemap.xml`, `robots.txt`.
 
-## Mise à jour sur GitHub et Cloudflare Workers
-1. Décompresser l’archive.
-2. Ouvrir le dépôt GitHub lié au Worker Cloudflare.
-3. Remplacer les fichiers à la racine du dépôt (ne pas téléverser le dossier parent).
-4. Vérifier le commit et attendre le déploiement Cloudflare (Success).
-5. Tester www.prestigehaven.agency avec Ctrl+F5.
+## Publication
+Dans votre dépôt GitHub `prestige-haven-site`, **remplacez** `index.html` et ajoutez le dossier `images` ainsi que `sitemap.xml` et `robots.txt` à la racine. Ne téléversez pas le fichier ZIP tel quel dans GitHub : décompressez-le d’abord.
 
-IMPORTANT : les images de fond et de services sont des photos d’illustration chargées depuis images.unsplash.com. Elles ne sont pas incluses dans l’archive et nécessitent une connexion Internet. Vérifiez les droits d’utilisation applicables et remplacez-les idéalement par vos photos professionnelles, notamment pour les véhicules, soirées et biens. Les images des villes sont illustratives et ne représentent pas nécessairement la ville nommée.
+Le site utilise des images Unsplash pour certaines prestations et Google Fonts, qui nécessitent Internet. Les quatre visuels de villes sont des **illustrations générées**, et non des photographies documentaires de lieux réels ; vous pouvez les remplacer par des photos authentiques avant ou après publication.
 
-WhatsApp : +212670616867. E-mail : prestigehaven1@gmail.com.
-Le bouton WhatsApp ouvre une conversation WhatsApp ; ce n’est pas un chat avec opérateur intégré ni une automatisation.
-Aucune promesse de disponibilité de transport ou d’organisation d’événements n’est implicite ; vérifiez les autorisations et assurances nécessaires à ces prestations.
+Le logo d'origine intégré dans la maquette est conservé, ainsi que la devise WHERE LUXURY MEETS COMFORT, les 3 langues et les liens WhatsApp.
+
+**Important :** le dépôt peut contenir une configuration Cloudflare spécifique ; conservez les fichiers de configuration existants s'ils ne figurent pas dans ce ZIP. Vérifiez le site après le déploiement.
